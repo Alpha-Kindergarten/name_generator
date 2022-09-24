@@ -1,0 +1,15 @@
+variables = firstNameF,firstNameM,lastName, input_true, input_false
+ask user if they want male or female name
+	true_inputs: male, female, boy, girl, m, f, man, woman 
+if input = false then
+	print error message "Invalid Entry" and show prompt again
+if input = true then v
+generate variable based on input
+determine if input if male or female
+if male then --->
+	variable generates number 1-1000 corresponding to line in male_first.txt
+	variable generates number 1-1000 corresponding to line in lastnames.txt 
+if female then --->
+	variable generates number 1-1000 corresponding to line in male_first.txt
+	variable generates number 1-1000 corresponding to line in lastnames.txt 
+	
